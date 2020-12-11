@@ -15,5 +15,5 @@ input = 1rem <br>
 
 # Color
 blue = #11b9f8 <br>
-grey = #555b5d <br>
+grey = #333333 <br>
 white = #ffffff <br>
