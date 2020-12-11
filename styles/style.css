@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito';
+}
+
+/* GENERAL STYLES - SIZE */
+
+h1 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3, p, a, input, label {
+    font-size: 1rem;
+}
+
+.mainSubtitle {
+    font-size: 25px;
+}
+
+.longPara {
+    font-size: 14px;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+li + li {
+    margin-left: 25px;
+}
+
+a {
+    text-decoration-line: none;
+    color: #ffffff;
+}
+
+a:hover {
+    color: #e4e4e4;
+}
+
+/* BUTTONS */
+
+.genericButton {
+    font-size: 12px;
+}
+
+#customButton {
+    background-color: #11b9f8;
+    padding: 5px 25px;
+    border-radius: 25px;
+}
+
+#customButton:hover {
+    background-color: #3bcbff;
+}
+
+/* CONTAINER */
+/* White space around the each sections */
+
+.container {
+    padding: 20px;
+}
+
+/* //HEADER// */
+
+header {
+    background-color: #555b5dd0;
+    padding: 0 20px;
+}
+
+header img {
+    width: 55px;
+}
+
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
