@@ -15,5 +15,7 @@ input = 1rem <br>
 
 # Color
 blue = #11b9f8 <br>
+blue hover = #42c9fa <br>
+blue background = #2bc6ff <br>
 grey = #333333 <br>
 white = #ffffff <br>
