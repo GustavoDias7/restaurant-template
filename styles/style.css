@@ -65,7 +65,7 @@ a:hover {
 }
 
 .genericButton:hover {
-    background-color: #2bc6ff;
+    background-color: #3bcbff;
     color: #e4e4e4;
 }
 
@@ -83,7 +83,7 @@ a:hover {
 /* White space around the each sections */
 
 .container {
-    padding: 10px 30px;
+    padding: 40px 30px;
 }
 
 /* //HEADER// */
@@ -205,4 +205,32 @@ header img {
 
     min-width: 40%;
     height: 70vh;
+}
+
+/* //SECTION04// */
+
+.topicsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 820px;
+    margin: auto;
+}
+
+.topic {
+    width: 200px;
+    margin: 15px auto;
+    text-align: center;
+}
+
+.section04 img {
+    width: 70px;
+}
+
+.section04 h3 {
+    font-size: 2rem;
+}
+
+.section04 p {
+    margin-bottom: 15px;
 }
