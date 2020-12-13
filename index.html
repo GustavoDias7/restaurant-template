@@ -18,9 +18,9 @@
             <img id="minLogo" src="./assets/cloche-tray.svg" alt="logo">
             <nav>
                 <ul>
-                    <li><a href="#">Menu</a></li>
-                    <li><a href="#">Sobre Nós</a></li>
-                    <li><a id="customButton" href="#">Contato</a></li>
+                    <li class="headerLink"><a href="#">Menu</a></li>
+                    <li class="headerLink"><a href="#">Sobre Nós</a></li>
+                    <li class="headerLink"><a id="customButton" href="#">Contato</a></li>
                 </ul>
             </nav>
         </div>
@@ -180,9 +180,8 @@
 
     <section class="section06">
         <div class="section06Container container">
-
+            
             <h2>Nosso time</h2>
-    
             <div class="personContainer">
                 <div class="person">
                     <img src="../assets/chef.jpg" alt="icon01">
@@ -204,46 +203,50 @@
                     <h3>Lorem Ipsum</h3>
                     <p>Lorem ipsum dolor</p>
                 </div>
-    
             </div>
 
         </div>
     </section>
 
-    <footer>
-        <div class="location">
-            <h2>Localização</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
-
-        <div class="followUs">
-            <h2>Siga-nos</h2>
-            <img src="" alt="fabebook">
-            <img src="" alt="instagram">
-            <img src="" alt="whatsapp">
-            <img src="" alt="linkedin">
-        </div>
-
-        <div class="contactForm">
-            <form action="" method="POST">
-                <ul>
-                    <li>
-                        <label for="name">Name:</label>
-                        <input type="text" name="user_name" id="name">
-                    </li>
-                    <li>
-                        <label for="email">Email:</label>
-                        <input type="email" name="user_email" id="email">
-                    </li>
-                    <li>
-                        <label for="msg">Mensagem</label>
-                        <input type="text" name="user_message" id="message">
-                    </li>
-                    <li>
-                        <button type="submit" class="genericButton">Submit</button>
-                    </li>
-                </ul>
-            </form>
+    <footer class="container">
+        <div>
+            <div class="part01Footer">
+                <div class="location">
+                    <h2>Localização</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+        
+                <div class="followUs">
+                    <h2>Siga-nos</h2>
+                    <img src="../assets/star.svg" alt="fabebook">
+                    <img src="../assets/star.svg" alt="instagram">
+                    <img src="../assets/star.svg" alt="whatsapp">
+                    <img src="../assets/star.svg" alt="linkedin">
+                </div>
+            </div>
+    
+            <div class="contactForm">
+                <h2>Fale conosco</h2>
+                <form action="" method="POST">
+                    <ul>
+                        <li>
+                            <label for="name">Name:</label>
+                            <input type="text" name="user_name" id="name">
+                        </li>
+                        <li>
+                            <label for="email">Email:</label>
+                            <input type="email" name="user_email" id="email">
+                        </li>
+                        <li>
+                            <label for="msg">Mensagem:</label>
+                            <textarea name="user_message" id="message"></textarea>
+                        </li>
+                        <li>
+                            <button type="submit" class="genericButton" id="submitButton">Submit</button>
+                        </li>
+                    </ul>
+                </form>
+            </div>
         </div>
     </footer>
 </body>
