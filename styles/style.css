@@ -269,3 +269,27 @@ header img {
 .section05Container h2 {
     text-decoration: underline;
 }
+
+/* //SECTION06// */
+
+.section06Container {
+    text-align: center;
+}
+
+.section06Container h2{
+    margin-bottom: 15px
+}
+
+.personContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+    max-width: 820px;
+    margin: auto;
+}
+
+.person img {
+    width: 110px;
+    border-radius: 100px;
+}
