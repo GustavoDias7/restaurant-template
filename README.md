@@ -1,3 +1,28 @@
+<br />
+<p align="center">
+ 
+   <img src="./design/desktop-demo.png" alt="demo" border="0" width="600">
+
+  <h1 align="center">Restaurant Template</h1>
+
+</p>
+
+# Objective
+This is a template focused on restaurants websites design, to be easy of modify in seviral similar projects.
+
+# Demo
+Access the <a href="#" target="_blank">demonstration</a> of the product.
+
+# Download
+```bash
+$ git clone https://github.com/GustavoDias7/restaurant-template.git
+$ cd restaurant-template
+$ start index.html
+```
+
+# Status
+Not finished.
+
 # Font Family
 Nunito (Google Fonts)
 
@@ -15,7 +40,11 @@ input = 1rem <br>
 
 # Color
 blue = #11b9f8 <br>
-blue hover = #3bcbff <br>
-blue background = #2bc6ff <br>
+hover blue = #3bcbff <br>
+background blue = #2bc6ff <br>
 grey = #333333 <br>
 white = #ffffff <br>
+
+# Meus Contatos
+- <a href="https://www.linkedin.com/in/gustavo-dias-3100211b6/">Linkedin</a>
+- <a href="https://www.instagram.com/eu.gustavodias/">Instagram</a>
