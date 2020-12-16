@@ -71,6 +71,7 @@ a, button, .section01, .section05, footer {
 }
 
 #customButton {
+    display: inline-block;
     background-color: #11b9f8;
     padding: 5px 25px;
     border-radius: 25px;
@@ -172,7 +173,6 @@ header img {
 
 .section03 {
     background-color: #cef1ff;
-    padding-left: 30px;
 }
 
 .section03Container {
@@ -182,7 +182,7 @@ header img {
 
 .textSide {
     max-width: 550px;
-    padding-right: 20px;
+    padding: 30px;
     margin: auto;
 }
 
@@ -194,7 +194,6 @@ header img {
     background-position: center;
 
     min-width: 40%;
-    height: 70vh;
 }
 
 /* //SECTION04// */
@@ -280,11 +279,11 @@ footer {
 }
 
 .part01Footer {
-    width: 300px;
+    max-width: 300px;
 }
 
 .followUs img {
-    width: 25px;
+    max-width: 25px;
 }
 
 .followUs img + img {
@@ -309,4 +308,98 @@ footer {
 
 #submitButton {
     margin-top: 15px; 
+}
+
+@media (min-width: 1000px) {
+    /* SECTION03 */
+
+    .section03 {
+        height: 50vh;
+    }
+
+    .imageSide {
+        width: 65%;
+        height: 50vh;
+        background-image: url("../assets/pexelsphoto2641886-02.jpeg");
+    }
+}
+
+@media (max-width: 710px) {
+    /* SECTION04 */
+
+    .topicsContainer {
+        flex-direction: column;
+        width: 340px;
+    }
+
+    .topic {
+        width: 340px;
+    }
+}
+
+@media (max-width: 665px) {
+    /* SECTION06 */
+
+    .personContainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 630px) {
+    /* FOOTER */
+
+    .footerContainer {
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    .contactForm {
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 550px) {
+    /* SECTION03 */
+
+    .section03 {
+        padding-left: 0;
+    }
+    
+    .section03Container {
+        flex-direction: column-reverse;
+    }
+
+    .imageSide {
+        background-image: url("../assets/pexelsphoto2641886-02.jpeg");
+        height: 50vh;
+    }
+}
+
+@media (max-width: 450px) {
+    /* HEADER */
+    
+    .headerContainer {
+        flex-direction: column;
+    }
+
+    #minLogo {
+        display: none;
+    }
+
+    .headerContainer nav {
+        margin-top: 10px;   
+    }
+}
+
+@media (max-width: 400px) {
+    /* SECTION04 */
+
+    .topicsContainer {
+        width: 200px;
+    }
+
+    .topic {
+        width: 200px;
+    }
 }
